@@ -17,7 +17,6 @@
   "author": "Kostya Nesterenko",
   "license": "ISC",
   "dependencies": {
-    "simplelightbox": "^2.2.0",
     "vite-plugin-full-reload": "^1.2.0",
     "vite-plugin-html-inject": "^1.1.2"
   }
