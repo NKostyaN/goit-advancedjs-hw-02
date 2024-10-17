@@ -8,6 +8,32 @@
   </head>
 
   <body>
-      <a href="./index.html">- Go back</a>
+    <a href="./index.html">- Go back</a>
+    <div class="timer-container">
+      <p>Timer will be saved in local storage</p>
+
+      <input type="text" id="datetime-picker" />
+      <button type="button" data-start>Start</button>
+      <button type="button" data-reset>Reset</button>
+
+      <div class="timer">
+        <div class="field">
+          <span class="value" data-days>00</span>
+          <span class="label">Days</span>
+        </div>
+        <div class="field">
+          <span class="value" data-hours>00</span>
+          <span class="label">Hours</span>
+        </div>
+        <div class="field">
+          <span class="value" data-minutes>00</span>
+          <span class="label">Minutes</span>
+        </div>
+        <div class="field">
+          <span class="value" data-seconds>00</span>
+          <span class="label">Seconds</span>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
